@@ -14,6 +14,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  liveUrl,
+  gitUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -50,13 +52,13 @@ export default function Project({
           </ul>
           <div className='flex mt-6 gap-3 '>
             <a
-              href=''
+              href={gitUrl}
               className='text-3xl transition-all hover:scale-110 hover:translate-x-1 hover:-translate-y-1 cursor-pointer'
             >
               <FaGithub />
             </a>
             <a
-              href=''
+              href={liveUrl}
               className='text-3xl transition-all hover:scale-110 hover:translate-x-1 hover:-translate-y-1 cursor-pointer relative '
             >
               <MdLaunch />
