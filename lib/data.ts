@@ -2,9 +2,9 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import Blogify from '@/public/blogify.jpg';
+import CareerPlex from '@/public/CareerPlex.jpg';
+import QuickPick from '@/public/QuickPick.jpg';
 
 export const links = [
   {
@@ -23,10 +23,7 @@ export const links = [
     name: 'Skills',
     hash: '#skills',
   },
-  {
-    name: 'Experience',
-    hash: '#experience',
-  },
+
   {
     name: 'Contact',
     hash: '#contact',
@@ -62,25 +59,37 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'CareerPlex',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'A full stack job board application using Next.js and React . I implemented Redux Toolkit for state management and TypeScript for strong typing.Ensured a secure user experience with HTTP cookies and JWT authentication.',
+    tags: ['React', 'Next.js', 'MongoDB', 'AntD', 'NodeMailer'],
+    imageUrl: CareerPlex,
+    liveUrl: 'https://career-plex.vercel.app/',
+    gitUrl: 'https://github.com/rajibdas51/CareerPlex',
   },
   {
-    title: 'rmtDev',
+    title: 'QuicPick',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'QuickPick is an engaging MERN eCommerce platform, highlighting skills in MongoDB, Express.js, React, and Node.js. • Integrated PayPal for secure and hassle-free payment processing, ensuring a seamless shopping experience',
+    tags: [
+      'React',
+      'Express.js',
+      'MongoDb',
+      'react-bootstrap',
+      'Redux-toolkit',
+    ],
+    imageUrl: QuickPick,
+    liveUrl: ' https://quickpick-aill.onrender.com/',
+    gitUrl: 'https://github.com/rajibdas51/quickpick',
   },
   {
-    title: 'Word Analytics',
+    title: 'Blogify',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'It’s a feature-rich blog application using Next.js 13, MongoDB and Prisma, demonstrating proficiency in building modern and dynamic front-end experiences.',
+    tags: ['React', 'Next.js', 'Prisma', 'Tailwind', 'SwiperJs'],
+    imageUrl: Blogify,
+    liveUrl: ' https://blogify-plum.vercel.app/',
+    gitUrl: 'https://github.com/rajibdas51/blogify',
   },
 ] as const;
 
@@ -94,12 +103,10 @@ export const skillsData = [
   'Node.js',
   'Git',
   'Tailwind',
-  'Prisma',
   'MongoDB',
   'Redux',
 
   'Express',
-  'PostgreSQL',
 
   'Framer Motion',
 ] as const;
