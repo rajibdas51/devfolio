@@ -74,13 +74,13 @@ export default function Project({
             className='absolute hidden sm:block top-8 -right-60 w-[35rem] h-[20rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+        group-hover:-translate-x-2
+        group-hover:translate-y-2
+        group-hover:-rotate-1
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+        group-even:group-hover:translate-x-2
+        group-even:group-hover:translate-y-2
+        group-even:group-hover:rotate-1
 
         group-even:right-[initial] group-even:-left-60'
           />
