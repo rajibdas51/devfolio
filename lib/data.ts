@@ -5,6 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import Blogify from '@/public/blogify.jpg';
 import CareerPlex from '@/public/CareerPlex.jpg';
 import QuickPick from '@/public/QuickPick.jpg';
+import PropNest from '@/public/propnest.png';
 
 export const links = [
   {
@@ -64,6 +65,22 @@ export const projectsData = [
       'A full stack job board application using Next.js and React . I implemented Redux Toolkit for state management and TypeScript for strong typing.Ensured a secure user experience with HTTP cookies and JWT authentication.',
     tags: ['React', 'Next.js', 'MongoDB', 'AntD', 'NodeMailer'],
     imageUrl: CareerPlex,
+    liveUrl: 'https://career-plex.vercel.app/',
+    gitUrl: 'https://github.com/rajibdas51/CareerPlex',
+  },
+  {
+    title: 'PropNest',
+    description:
+      'A property rental platform built with Next.js and React.js, featuring authentication, CRUD functionality, and Mapbox integration. Designed a responsive UI with Tailwind CSS and implemented Cloudinary for image management.',
+    tags: [
+      'Next.js',
+      'MongoDB',
+      'TailwindCss',
+      'NextAuth.js',
+      'Cloudinary',
+      'React Share',
+    ],
+    imageUrl: PropNest,
     liveUrl: 'https://career-plex.vercel.app/',
     gitUrl: 'https://github.com/rajibdas51/CareerPlex',
   },

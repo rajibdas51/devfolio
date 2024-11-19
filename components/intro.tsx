@@ -16,7 +16,7 @@ export default function Intro() {
   return (
     <section
       id='home'
-      className='mb-28 max-w-[50rem] text-center sm:mb-0 flex flex-col items-center justify-center scroll-mt-[100rem]'
+      className='mb-28 w-[50rem] md:max-w-[50rem] text-center sm:mb-0 flex flex-col items-center justify-center scroll-mt-[100rem]'
     >
       <div>
         <motion.div
