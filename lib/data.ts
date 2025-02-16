@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import Blogify from '@/public/blogify.jpg';
-import CareerPlex from '@/public/CareerPlex.jpg';
+import CareerPlex from '@/public/CareerPlex.png';
 import QuickPick from '@/public/QuickPick.jpg';
 import PropNest from '@/public/propnest.png';
 
