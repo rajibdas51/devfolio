@@ -75,7 +75,7 @@ export default function Intro() {
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
         </a>
 
-        <div className='flex flex-row  gap-3'>
+        <div className='flex flex-row  gap-3 mt-4 md:mt-0'>
           <a
             className='bg-white p-5 text-xl text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
             href='https://www.linkedin.com/in/rajib-chandra-das/'
