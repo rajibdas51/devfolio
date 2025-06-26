@@ -81,8 +81,8 @@ export const projectsData = [
       'React Share',
     ],
     imageUrl: PropNest,
-    liveUrl: 'https://career-plex.vercel.app/',
-    gitUrl: 'https://github.com/rajibdas51/CareerPlex',
+    liveUrl: 'https://propnest.vercel.app/',
+    gitUrl: 'https://github.com/rajibdas51/PropNest',
   },
   {
     title: 'QuicPick',
