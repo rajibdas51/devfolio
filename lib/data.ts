@@ -6,6 +6,7 @@ import Blogify from '@/public/blogify.jpg';
 import CareerPlex from '@/public/CareerPlex.png';
 import QuickPick from '@/public/QuickPick.jpg';
 import PropNest from '@/public/propnest.png';
+import InvoiceCopilot from '@/public/invoicecopilot.png';
 
 export const links = [
   {
@@ -67,7 +68,16 @@ export const projectsData = [
     imageUrl: CareerPlex,
     liveUrl: 'https://career-plex.vercel.app/',
     gitUrl: 'https://github.com/rajibdas51/CareerPlex',
-  },
+  },{
+  title: 'InvoiceCopilot',
+  description:
+    'A full stack AI-powered invoice management platform built with React.js and Node.js. Integrated LLM API for intelligent invoice generation and parsing. Implemented dual authentication supporting JWT and Google OAuth 2.0 via Passport.js, along with automated email delivery using Nodemailer and secure file uploads with Multer.',
+  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'LLM API', 'Nodemailer'],
+  imageUrl: InvoiceCopilot,
+  liveUrl: 'https://invoicecopilot.vercel.app/',
+  gitUrl: 'https://github.com/rajibdas51/invoice-copilot',
+},
+
   {
     title: 'PropNest',
     description:
