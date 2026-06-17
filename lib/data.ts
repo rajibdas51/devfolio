@@ -71,7 +71,7 @@ export const projectsData = [
   },{
   title: 'InvoiceCopilot',
   description:
-    'A full stack AI-powered invoice management platform built with React.js and Node.js. Integrated LLM API for intelligent invoice generation and parsing. Implemented dual authentication supporting JWT and Google OAuth 2.0 via Passport.js, along with automated email delivery using Nodemailer and secure file uploads with Multer.',
+    'An AI-powered invoice management platform built with React.js and Node.js. Features LLM API integration for intelligent invoice generation, dual authentication with JWT and Google OAuth 2.0, automated email delivery via Nodemailer, and secure file uploads with Multer.',
   tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'LLM API', 'Nodemailer'],
   imageUrl: InvoiceCopilot,
   liveUrl: 'https://invoicecopilot.vercel.app/',
