@@ -105,7 +105,7 @@ export const projectsData = [{
   imageUrl: Thevocabmastery,
   liveUrl: 'https://thevocabmastery.vercel.app/',
   gitUrl: 'https://github.com/rajibdas51/thevocabmastery',
-}
+},
   {
     title: 'PropNest',
     description:
