@@ -37,16 +37,19 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className='mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-4xl '
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className='font-bold'>Hello, I'm Rajib,</span> a passionate{' '}
-        <span className='font-bold'>full-stack developer.</span> I enjoy solving
-        problems and building{' '}
-        <span className='italic'>interactive web apps</span>. My focus is{' '}
-        <span className='underline'>React (Next.js) and express</span>.
-      </motion.h1>
+  className='mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-4xl '
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className='font-bold'>Hello, I'm Rajib,</span> a{' '}
+  <span className='font-bold'>backend-focused full-stack developer.</span> I
+  build{' '}
+  <span className='italic'>AI-powered web apps and software</span> for clients
+  around the world. My focus is{' '}
+  <span className='underline'>Node.js and Express</span>, with React (Next.js)
+  on the frontend, and I also build{' '}
+  <span className='font-bold'>AI automation</span> workflows.
+</motion.h1>
 
       <motion.div
         className='flex flex-col sm:flex-row items-center justify-center gap-2'
