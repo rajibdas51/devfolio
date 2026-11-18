@@ -61,10 +61,10 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
+{
   title: 'Rise of Memes',
   description:
-    'A multilingual crypto presale platform built with Next.js and TypeScript, featuring wallet connection via Reown AppKit and Coinbase Wallet SDK, fiat-to-crypto purchases through Wert, and on-chain interactions with Ethers.js. Implemented full internationalization with next-intl and i18next, an interactive 3D experience with React Three Fiber, and transactional emails with Resend and React Email.',
+    'A multilingual crypto presale platform built with Next.js and TypeScript, featuring wallet connection via Reown AppKit, fiat-to-crypto purchases through Wert, and full i18n support with next-intl. Includes an interactive 3D experience built with React Three Fiber.',
   tags: [
     'Next.js',
     'TypeScript',
@@ -78,7 +78,7 @@ export const projectsData = [
   imageUrl: RiseOfMemes,
   liveUrl: 'https://www.riseofmemes.com/en',
   gitUrl: '', // private repo? remove or link if public
-},
+},,
   {
     title: 'CareerPlex',
     description:
