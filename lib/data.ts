@@ -8,6 +8,7 @@ import QuickPick from '@/public/QuickPick.jpg';
 import PropNest from '@/public/propnest.png';
 import RiseOfMemes from '@/public/RiseOfMemes.png';
 import InvoiceCopilot from '@/public/invoicecopilot.png';
+import Thevocabmastery from '@/public/Thevocabmastery.png';
 
 export const links = [
   {
@@ -78,7 +79,7 @@ export const projectsData = [
   imageUrl: RiseOfMemes,
   liveUrl: 'https://www.riseofmemes.com/en',
   gitUrl: '', // private repo? remove or link if public
-},,
+},
   {
     title: 'CareerPlex',
     description:
@@ -96,7 +97,15 @@ export const projectsData = [
   liveUrl: 'https://invoicecopilot.vercel.app/',
   gitUrl: 'https://github.com/rajibdas51/invoice-copilot',
 },
-
+{
+  title: 'Thevocabmastery',
+  description:
+    'A full stack SaaS vocabulary platform for Bangladesh\'s competitive exam market (BCS, Bank Jobs, GRE). I built multiple quiz modes, flashcards with text-to-speech, GRE analogy tests, and a Duolingo-style streak, XP and daily points system, with Gemini AI generating word data and example sentences. Premium subscriptions are handled through the SSLCommerz payment gateway, and Supabase provides authentication and row level security.',
+  tags: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS', 'Gemini AI', 'Zustand', 'SSLCommerz'],
+  imageUrl: Thevocabmastery,
+  liveUrl: 'https://thevocabmastery.vercel.app/',
+  gitUrl: 'https://github.com/rajibdas51/thevocabmastery',
+},
   {
     title: 'PropNest',
     description:
