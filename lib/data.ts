@@ -61,7 +61,15 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projectsData = [{
+  title: 'InvoiceCopilot',
+  description:
+    'An AI-powered invoice management platform built with React.js and Node.js. Features LLM API integration for intelligent invoice generation, dual authentication with JWT and Google OAuth 2.0, automated email delivery via Nodemailer, and secure file uploads with Multer.',
+  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'LLM API', 'Nodemailer'],
+  imageUrl: InvoiceCopilot,
+  liveUrl: 'https://invoicecopilot.vercel.app/',
+  gitUrl: 'https://github.com/rajibdas51/invoice-copilot',
+},
 {
   title: 'Rise of Memes',
   description:
@@ -88,24 +96,16 @@ export const projectsData = [
     imageUrl: CareerPlex,
     liveUrl: 'https://career-plex.vercel.app/',
     gitUrl: 'https://github.com/rajibdas51/CareerPlex',
-  },{
-  title: 'InvoiceCopilot',
-  description:
-    'An AI-powered invoice management platform built with React.js and Node.js. Features LLM API integration for intelligent invoice generation, dual authentication with JWT and Google OAuth 2.0, automated email delivery via Nodemailer, and secure file uploads with Multer.',
-  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'LLM API', 'Nodemailer'],
-  imageUrl: InvoiceCopilot,
-  liveUrl: 'https://invoicecopilot.vercel.app/',
-  gitUrl: 'https://github.com/rajibdas51/invoice-copilot',
-},
+  },
 {
   title: 'Thevocabmastery',
   description:
-    'A full stack SaaS vocabulary platform for Bangladesh\'s competitive exam market (BCS, Bank Jobs, GRE). I built multiple quiz modes, flashcards with text-to-speech, GRE analogy tests, and a Duolingo-style streak, XP and daily points system, with Gemini AI generating word data and example sentences. Premium subscriptions are handled through the SSLCommerz payment gateway, and Supabase provides authentication and row level security.',
+    'A full stack SaaS vocabulary platform for competitive exam prep. I implemented quizzes, flashcards, a Duolingo-style streak and XP system, Gemini AI content generation, and premium subscriptions through SSLCommerz, all backed by Supabase.',
   tags: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS', 'Gemini AI', 'Zustand', 'SSLCommerz'],
   imageUrl: Thevocabmastery,
   liveUrl: 'https://thevocabmastery.vercel.app/',
   gitUrl: 'https://github.com/rajibdas51/thevocabmastery',
-},
+}
   {
     title: 'PropNest',
     description:
