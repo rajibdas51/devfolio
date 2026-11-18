@@ -6,6 +6,7 @@ import Blogify from '@/public/blogify.jpg';
 import CareerPlex from '@/public/CareerPlex.png';
 import QuickPick from '@/public/QuickPick.jpg';
 import PropNest from '@/public/propnest.png';
+import RiseOfMemes from '@/public/RiseOfMemes.png';
 import InvoiceCopilot from '@/public/invoicecopilot.png';
 
 export const links = [
@@ -60,6 +61,24 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+  title: 'Rise of Memes',
+  description:
+    'A multilingual crypto presale platform built with Next.js and TypeScript, featuring wallet connection via Reown AppKit and Coinbase Wallet SDK, fiat-to-crypto purchases through Wert, and on-chain interactions with Ethers.js. Implemented full internationalization with next-intl and i18next, an interactive 3D experience with React Three Fiber, and transactional emails with Resend and React Email.',
+  tags: [
+    'Next.js',
+    'TypeScript',
+    'TailwindCss',
+    'next-intl',
+    'Ethers.js',
+    'Reown AppKit',
+    'Three.js',
+    'Resend',
+  ],
+  imageUrl: RiseOfMemes,
+  liveUrl: 'https://www.riseofmemes.com/en',
+  gitUrl: '', // private repo? remove or link if public
+},
   {
     title: 'CareerPlex',
     description:
